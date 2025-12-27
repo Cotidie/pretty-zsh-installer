@@ -21,8 +21,8 @@ Use this script when you are setting up a fresh Linux or want to quickly upgrade
 
 ```bash
 # 1. Download the script
-git clone https://github.com/Cotidie/zsh-installer.git
-cd zsh-installer
+git clone git@github.com:Cotidie/pretty-zsh-installer.git
+cd pretty-zsh-installer
 
 # 2. Run the script
 chmod +x install-zsh.sh
