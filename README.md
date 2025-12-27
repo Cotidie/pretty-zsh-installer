@@ -32,3 +32,23 @@ chmod +x install-zsh.sh
 ```
 
 Then restart your terminal or log out and back in to apply the changes.
+
+# Korean Keyboard Setup (fcitx5)
+
+This repository also includes a script to set up the Korean keyboard input method using `fcitx5`.
+
+## What this script does
+
+1.  **Installs fcitx5**: Installs `fcitx5`, `fcitx5-hangul`, and related frontend packages.
+2.  **Configures Input Method**: Sets `fcitx5` as the default input method system.
+3.  **Sets up Profile**: Creates a default profile with US English and Hangul layouts.
+4.  **Configures Shortcuts**: Sets `Shift+Space` and `Right Alt` as toggle keys for switching inputs.
+
+## How to run
+
+```bash
+chmod +x install-korean-keyboard.sh
+./install-korean-keyboard.sh
+```
+
+After running the script, **log out and log back in** for the changes to take effect.
