@@ -3,7 +3,7 @@
 # Stop script on errors (optional, but good for debugging)
 set -e
 
-install_git() {
+install_dependencies() {
     echo "--- Step 0: Installing Tools & Git Config ---"
     sudo apt update
     sudo apt install -y vim git fonts-font-awesome curl wget
@@ -70,7 +70,7 @@ EOT
 main() {
     echo "Starting setup..."
     
-    install_git
+    install_dependencies
     install_zsh
     install_oh_my_zsh
     configure_zshrc
