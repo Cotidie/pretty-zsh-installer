@@ -8,11 +8,6 @@ install_dependencies() {
     sudo apt update
     sudo apt install -y vim git fonts-font-awesome curl wget
 
-    # Request User Input
-    echo ""
-    read -p "Enter your Git User Name (NickName): " GIT_NAME
-    read -p "Enter your Git Email Address: " GIT_EMAIL
-
     # Configure Git
     git config --global core.editor "vim"
     git config --global user.name "$GIT_NAME"
